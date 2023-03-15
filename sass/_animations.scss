@@ -1,0 +1,40 @@
+@keyframes fadeIn {
+    0%{
+
+        box-shadow: 0 0 4rem 0vw rgba($color-black, 0.5);
+    }
+    100%{
+        box-shadow: 0 0 4rem 100vw rgba($color-black, 0.5);
+    }
+}
+
+@keyframes slideIn {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+}
+
+
+@keyframes fadeOut {
+    0%{
+
+        box-shadow: 0 0 4rem 100vw rgba($color-black, 0.5);
+    }
+    100%{
+        box-shadow: 0 0 0rem 0vw rgba($color-black, 0.5);
+    }
+}
+
+@keyframes slideOut {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+    
+}
